@@ -15,7 +15,7 @@ function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setBgNum((v)=> (v === 5 ? 0 : v + 1))
-    }, 10000);
+    }, 600000);
     return () => {
       clearInterval(interval)
     };
