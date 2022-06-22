@@ -62,7 +62,6 @@ export default function BasicTabs() {
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Dropdowns type="hotel"/>
-        <Button>Search</Button>
       </TabPanel>
     </Box>
   );
