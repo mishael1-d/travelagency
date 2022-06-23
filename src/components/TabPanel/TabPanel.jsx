@@ -7,6 +7,8 @@ import Box from '@mui/material/Box';
 import Dropdowns from './Dropdown/Dropdowns'
 import './TabPanel.css'
 import { Button } from '@mui/material';
+import FlightIcon from '@mui/icons-material/Flight';
+import LuggageIcon from '@mui/icons-material/Luggage';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -52,8 +54,8 @@ export default function BasicTabs() {
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Book Flights" {...a11yProps(0)} />
-          <Tab label="Book Hotels" {...a11yProps(1)} />
+          <Tab icon={<FlightIcon />} iconPosition="start" label="Book Flights" {...a11yProps(0)} />
+          <Tab icon={<LuggageIcon/>} iconPosition="start" label="Book Hotels" {...a11yProps(1)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>

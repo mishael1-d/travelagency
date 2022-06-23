@@ -11,15 +11,20 @@
   padding: 2rem !important;
 }
 /* Styling for TABPANEL TITLE TEXT */
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root {
   background-color: rgba(185, 205, 227, 0.8) !important;
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
 }
-.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected {
   background-color: #0e3c6e !important;
+  color: #fff !important;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+
+.css-h0q0iv-MuiButtonBase-root-MuiTab-root {
+  min-height: 0 !important;
 }
 
 #simple-tab-0 {
