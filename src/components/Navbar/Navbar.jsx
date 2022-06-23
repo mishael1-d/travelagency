@@ -1,7 +1,7 @@
 import React from "react";
 import logo1 from "../../assets/logo1.png";
-import './Navbar.css'
-import {Link} from "react-router-dom"
+import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -13,16 +13,34 @@ function Navbar() {
           <img src={logo1} alt="Hovapay" className="logo-img" />
         </div>
         <ul className="navbar-left-links__container">
-          <li><Link to='/flights'>flights</Link></li>
-          <li><Link to='/hotels'>hotels</Link></li>
+          <li>
+            <Link to="/flights">flights</Link>
+          </li>
+          <li>
+            <Link to="/hotels">hotels</Link>
+          </li>
         </ul>
       </div>
 
       {/* Navigation (right) container */}
       <ul className="navbar-right-side__container">
-        <li><Link to='/support'>support</Link></li>
-        <li><Link to='/features'>features</Link></li>
-        <li><Link to='/features'>features</Link></li>
+        <div className="support-dropdown">
+          <li>
+            <Link to="/support">support</Link>
+          </li>
+          <div className="support-dropdown-content">
+            <a href="#">08111122241</a>
+            <a href="#">08111122241</a>
+            <a href="#">08111122241</a>
+            <a href="#">08111122241</a>
+          </div>
+        </div>
+        <li>
+          <Link to="/features">features</Link>
+        </li>
+        <li>
+          <Link to="/features">Sign up | Login</Link>
+        </li>
       </ul>
     </div>
   );
