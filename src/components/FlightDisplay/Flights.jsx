@@ -18,7 +18,14 @@ function Flights() {
           <h3>Popular Deals Today</h3>
           <img src={verified} alt="" />
         </div>
-        <OwlCarousel className="owl-theme" items={3} margin={8} autoplay={true} loop nav>
+        <OwlCarousel
+          className="owl-theme"
+          items={3}
+          margin={8}
+          autoplay={true}
+          loop
+          nav
+        >
           <figure>
             <img src={im1} alt="" className="img1" />
           </figure>
