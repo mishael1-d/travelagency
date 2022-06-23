@@ -1,0 +1,30 @@
+.app-banner__wrapper {
+    background-color: #0e3c6e;
+    height: 400px;
+    margin-top: 200px;
+}
+.app_advert_container {
+    display: flex;
+}
+.app_advert_container .advert_img {
+    margin-top: -280px;
+    margin-left: -200px;
+}
+.app-advert__content {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: -90px;
+}
+.app-advert__content h2 {
+    margin-bottom: .5rem;
+}
+.app-advert__content p {
+    margin-bottom: 1rem;
+}
+.download-links {
+    display: flex;
+    justify-content: space-between;
+}
+.ios {
+    margin-right: 1rem;
+}

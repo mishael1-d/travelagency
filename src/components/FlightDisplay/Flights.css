@@ -1,0 +1,25 @@
+.flight-wrapper .heading {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+.flight-wrapper .heading h3 {
+    margin-right: .5rem;
+}
+.flight-wrapper .heading img {
+    object-fit: cover;
+}
+.images__container {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: 0;
+}
+.flight-wrapper figure {
+    margin-right: 1.05rem;
+}
+.flight-wrapper figure img {
+    width: 300px;
+    height: 240px;
+    object-fit: cover;
+}
