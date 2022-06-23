@@ -11,8 +11,11 @@
 }
 .images__container {
     width: 100%;
-    display: flex;
-    overflow-x: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0;
+    row-gap: .5rem;
+    /* overflow-x: auto; */
     scrollbar-width: 0;
 }
 .flight-wrapper figure {

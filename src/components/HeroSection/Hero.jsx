@@ -11,11 +11,11 @@ import bg6 from "../../assets/bg6.jpg";
 function Hero() {
   const bgArray = [bg1, bg2, bg3, bg4, bg5, bg6];
   const [bgNum, setBgNum] = useState(0);
-  let i;
+
   useEffect(() => {
     const interval = setInterval(() => {
       setBgNum((v)=> (v === 5 ? 0 : v + 1))
-    }, 6000);
+    }, 60000);
     return () => {
       clearInterval(interval)
     };

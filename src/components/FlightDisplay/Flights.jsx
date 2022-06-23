@@ -1,21 +1,24 @@
 import React from "react";
-import im1 from "../../assets/Abuja.png"
-import im2 from "../../assets/Accra.png"
-import im3 from "../../assets/Instabul.jpg"
-import im4 from "../../assets/Kigali.jpg"
-import im5 from "../../assets/new-york.jpg"
-import im6 from "../../assets/New\ Delhi.png"
-import verified from "../../assets/verified.png"
-import './Flights.css'
+import im1 from "../../assets/Abuja.png";
+import im2 from "../../assets/Accra.png";
+import im3 from "../../assets/Instabul.jpg";
+import im4 from "../../assets/Kigali.jpg";
+import im5 from "../../assets/new-york.jpg";
+import im6 from "../../assets/New Delhi.png";
+import verified from "../../assets/verified.png";
+import OwlCarousel from "react-owl-carousel";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import "./Flights.css";
 function Flights() {
   return (
     <div className="flight-wrapper">
       <div className="container">
-          <div className="heading">
+        <div className="heading">
           <h3>Popular Deals Today</h3>
-<img src={verified} alt="" />
-          </div>
-        <div className="images__container">
+          <img src={verified} alt="" />
+        </div>
+        <OwlCarousel className="owl-theme" items={3} margin={8} autoplay={true} loop nav>
           <figure>
             <img src={im1} alt="" className="img1" />
           </figure>
@@ -34,7 +37,7 @@ function Flights() {
           <figure>
             <img src={im6} alt="" className="img5" />
           </figure>
-        </div>
+        </OwlCarousel>
       </div>
     </div>
   );
