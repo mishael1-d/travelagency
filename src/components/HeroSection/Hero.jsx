@@ -11,10 +11,12 @@ import bg6 from "../../assets/bg6.jpg";
 function Hero() {
   const bgArray = [bg1, bg2, bg3, bg4, bg5, bg6];
   const [bgNum, setBgNum] = useState(0);
-  while (bgNum < bgArray.length) {
+  let i = 0
+  while (i < bgArray.length) {
     setTimeout(() => {
       setBgNum(bgNum + 1);
     }, 5000);
+    i++
   }
   return (
     <div
