@@ -1,0 +1,47 @@
+.seo-footer__container .container {
+    padding: 0 4rem;
+}
+.content h5, .content h2 {
+  font-size: 1rem;
+  line-height: 1rem;
+  margin-bottom: 1.5rem !important;
+  color: #234;
+  font-weight: 500;
+  margin: 0;
+}
+.seo-footer__container p {
+    margin-bottom: 1rem;
+}
+
+.seo-footer__container p, .flight-links ul li {
+color: #6d8494;
+}
+
+.flight-links ul li {
+    padding: 4px 0;
+}
+
+.flight-links ul li:hover {
+    color: #0e3c6e;
+}
+
+.seo-footer__container .content {
+    margin-bottom: 1rem;
+}
+
+.flight-links__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.flight-links ul {
+    list-style: none;
+}
+.flight-links ul h5 {
+    margin-bottom: .5rem !important;
+}
+
+.dotted-lines {
+    border: 1px dashed #c4c4c4;
+    margin: 1rem 0;
+}

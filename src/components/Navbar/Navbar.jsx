@@ -15,8 +15,6 @@ function Navbar() {
         <ul className="navbar-left-links__container">
           <li><Link to='/flights'>flights</Link></li>
           <li><Link to='/hotels'>hotels</Link></li>
-          <li><Link to='/bills'>bills</Link></li>
-          <li><Link to='/more'>more</Link></li>
         </ul>
       </div>
 

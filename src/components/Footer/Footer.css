@@ -1,0 +1,21 @@
+.footer-wrapper {
+    background-color: #0e3c6e;
+    margin-bottom: 0;
+}
+.footer-wrapper .content {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.footer-wrapper .content h5 {
+    color: #fff !important;
+}
+.footer-links__container {
+    list-style: none;
+    display: flex;
+}
+.footer-links__container li {
+    margin-right: 1rem;
+}
+.copyright {
+    margin-top: 1.5rem;
+}

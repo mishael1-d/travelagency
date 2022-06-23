@@ -1,10 +1,10 @@
-.newsletter__container {
-  background-color: #f1f4f7;
-  padding: 35px 24px;
-  margin: 60px auto;
+.newsletter__wrapper {
   text-align: center;
 }
-
+.newsletter__container {
+  padding: 35px 0;
+  background-color: #f1f4f7;
+}
 .newsletter__container h4 {
   font-size: 1.5rem;
   color: #234;
