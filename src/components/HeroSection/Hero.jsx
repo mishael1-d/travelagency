@@ -15,7 +15,7 @@ function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setBgNum((v)=> (v === 5 ? 0 : v + 1))
-    }, 600000);
+    }, 6000);
     return () => {
       clearInterval(interval)
     };
@@ -27,7 +27,9 @@ function Hero() {
       style={{ backgroundImage: `url(${bgArray[bgNum]})` }}
     >
       <div className="hero-section__container container">
-        <h3 className="hero-title">Search and Book Flights and Hotels</h3>
+        <p className="hero-subtitle">Welcome to HOVAPAY</p>
+        <h3 className="hero-title">Search and Book Flights </h3>
+        <h3 className="hero-title">and Hotels</h3>
         <div className="tabpanel__container">
           <BasicTabs />
         </div>
