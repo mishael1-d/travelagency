@@ -1,12 +1,12 @@
-.radio__container.MuiButtonBase-root.MuiRadio-root {
+#radiobutton__container.MuiButtonBase-root.MuiRadio-root {
   color: #fff !important;
 }
 
-.radio__container.MuiFormControl-root {
+#radiobutton__container.MuiFormControl-root {
   padding-bottom: 0.5rem !important;
 }
 
-.radio__container.MuiFormLabel-root {
+#radiobutton__container.MuiFormLabel-root {
   color: #fff !important;
 }
 
@@ -15,7 +15,7 @@
   margin-bottom: 1rem !important;
 }
 @media screen and (max-width: 1024px) {
-  .radio__container.MuiFormGroup-root {
+  #radiobutton__container.MuiFormGroup-root {
     width: max-content !important;
   }
   #radiobutton__container {
