@@ -2,25 +2,33 @@ import * as React from "react";
 import Box from "@mui/material/Box";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
+import FormControl from "@mui/material/FormControl";
+import TextField from "@mui/material/TextField";
+import Autocomplete from "@mui/material/Autocomplete";
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+
 import "./Dropdowns.css";
 
 export default function BasicSelect({ type }) {
   const [passengerFlightDetails, setpassengerFlightDetails] = React.useState({
     flightFrom: "",
     flightTo: "",
-    departing: '',
-    returning: '',
-    adult: '',
-    child: '',
+    departing: "",
+    returning: "",
+    adult: "",
+    child: "",
   });
   const [passengerHotelDetails, setpassengerHotelDetails] = React.useState({
     name: "",
-    checkIn: '',
-    checkOut: '',
-    adult: '',
+    checkIn: "",
+    checkOut: "",
+    adult: "",
   });
+  const [value, setValue] = React.useState(new Date());
+
   const handleFlightChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -36,7 +44,42 @@ export default function BasicSelect({ type }) {
     <Box sx={{ minWidth: 120 }}>
       {type === "flight" ? (
         <>
-          <FormControl>
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={top100Films}
+            sx={{ width: 200 }}
+            renderInput={(params) => <TextField {...params} label="From" />}
+          />
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={top100Films}
+            sx={{ width: 200 }}
+            renderInput={(params) => <TextField {...params} label="To" />}
+          />
+          <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <DatePicker
+              label="Departing"
+              value={value}
+              onChange={(newValue) => {
+                setValue(newValue);
+              }}
+              renderInput={(params) => <TextField {...params} />}
+            />
+          </LocalizationProvider>
+          <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <DatePicker
+              label="Returning"
+              value={value}
+              onChange={(newValue) => {
+                setValue(newValue);
+              }}
+              renderInput={(params) => <TextField {...params} />}
+            />
+          </LocalizationProvider>
+
+          {/* <FormControl>
             <InputLabel id="demo-simple-select-label">Flying From:</InputLabel>
             <Select
               labelId="demo-simple-select-label"
@@ -137,56 +180,37 @@ export default function BasicSelect({ type }) {
               <MenuItem value={70}>7</MenuItem>
               <MenuItem value={80}>8</MenuItem>
             </Select>
-          </FormControl>
+          </FormControl> */}
         </>
       ) : (
         <>
-          <FormControl>
-            <InputLabel id="demo-simple-select-label">Name of city</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select-name"
-              value={passengerHotelDetails.name}
-              name="name"
-              placeholder="Round trip"
-              onChange={handleHotelChange}
-            >
-              <MenuItem value={10}>Round trip</MenuItem>
-              <MenuItem value={20}>One-way</MenuItem>
-              <MenuItem value={30}>Multi-city</MenuItem>
-            </Select>
-          </FormControl>
-          <FormControl>
-            <InputLabel id="demo-simple-select-label">Check-in</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={passengerHotelDetails.checkIn}
-              name="checkIn"
-              label="Age"
-              onChange={handleHotelChange}
-            >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-            </Select>
-          </FormControl>
-          <FormControl>
-            <InputLabel id="demo-simple-select-label">Check-out</InputLabel>
-            <Select
-              labelId="demo-simple-select-label"
-              id="demo-simple-select"
-              value={passengerHotelDetails.checkOut}
-              name="checkOut"
-              label="Age"
-              onChange={handleHotelChange}
-            >
-              <MenuItem value={10}>Economy</MenuItem>
-              <MenuItem value={20}>Premium Economy</MenuItem>
-              <MenuItem value={30}>Business</MenuItem>
-              <MenuItem value={40}>First Class</MenuItem>
-            </Select>
-          </FormControl>
+          <Autocomplete
+            disablePortal
+            id="combo-box-demo"
+            options={top100Films}
+            sx={{ width: 250 }}
+            renderInput={(params) => <TextField {...params} label="Name of City" />}
+          />
+          <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <DatePicker
+              label="Check-in"
+              value={value}
+              onChange={(newValue) => {
+                setValue(newValue);
+              }}
+              renderInput={(params) => <TextField {...params} />}
+            />
+            </LocalizationProvider>
+            <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <DatePicker
+              label="Check-out"
+              value={value}
+              onChange={(newValue) => {
+                setValue(newValue);
+              }}
+              renderInput={(params) => <TextField {...params} />}
+            />
+            </LocalizationProvider>
           <FormControl>
             <InputLabel id="demo-simple-select-label">Adult</InputLabel>
             <Select
@@ -212,3 +236,15 @@ export default function BasicSelect({ type }) {
     </Box>
   );
 }
+
+const top100Films = [
+  "London",
+  "Egypt",
+  "United States",
+  "Nigeria",
+  "Ghana",
+  "Dubai",
+  "Iran",
+  "Iraq",
+  "Isreal",
+];

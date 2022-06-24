@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 80vh;
+  height: 50vh;
   position: relative;
   transition: all ease-in-out .5s;
 }
@@ -11,6 +11,10 @@
 .hero-section__container {
   display: flex;
   flex-direction: column;
+}
+.text-c {
+  margin-bottom: 2rem;
+
 }
 .hero-subtitle, .hero-title {
     color: #fff;
@@ -20,7 +24,7 @@ width: fit-content;
 padding: .5rem;
 }
 .hero-title {
-  font-size: 2rem;
+  font-size: 1rem;
   max-width: 600px;
   font-weight: 700;
 }
@@ -28,10 +32,19 @@ padding: .5rem;
     font-size: 1rem;
 }
 .tabpanel__container {
-  width: 100%;
   height: auto;
   margin: 0;
-  position: absolute;
-  bottom: 0px;
-  overflow: hidden;
+  /* position: absolute; */
+  /* bottom: 0px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-wrapper {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 430px) {
+  .hero-wrapper {
+    height: 90vh;
+  }
 }

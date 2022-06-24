@@ -3,10 +3,10 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .textbox {
-    width: 25%;
     margin: 0 .5rem;
 }
 
@@ -14,7 +14,7 @@
     min-width: 240px;
     text-align: center;
 }
-
+/*
 caption .c-title {
 font-size: 1.2rem;
 margin: .5rem 0;
@@ -27,3 +27,10 @@ caption .c-subtitle {
 .textbox figure img:hover {
     fill: red;
 }
+
+@media screen and (max-width: 1024px) {
+    .textbox {
+        width: 35%;
+        margin: 1rem .5rem;
+    }
+} */

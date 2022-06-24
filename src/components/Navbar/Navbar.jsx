@@ -26,22 +26,23 @@ function Navbar() {
       <ul className="navbar-right-side__container">
         <div className="support-dropdown">
           <li>
-            <Link to="/support">support</Link>
+            support
           </li>
           <div className="support-dropdown-content">
-            <a href="tel:+08111122241">08111122241</a>
-            <a href="tel:+08111122241">08111122241</a>
-            <a href="tel:+08111122241">08111122241</a>
-            <a href="tel:+08111122241">08111122241</a>
-            <a href="tel:+08111122241">08111122241</a>
+            <a href="tel:+2347044040403">0704 404 0403</a>
           </div>
         </div>
-        <li>
-          <Link to="/features">features</Link>
-        </li>
-        <li>
+        <div className="support-dropdown">
+          <li>
+            Menu
+          </li>
+          <div className="support-dropdown-content">
+          <li>
           <Link to="/features">Sign up | Login</Link>
         </li>
+          </div>
+        </div>
+        
       </ul>
     </div>
   );
