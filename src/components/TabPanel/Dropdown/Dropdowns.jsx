@@ -13,14 +13,14 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import "./Dropdowns.css";
 
 export default function BasicSelect({ type }) {
-  const [passengerFlightDetails, setpassengerFlightDetails] = React.useState({
-    flightFrom: "",
-    flightTo: "",
-    departing: "",
-    returning: "",
-    adult: "",
-    child: "",
-  });
+  // const [passengerFlightDetails, setpassengerFlightDetails] = React.useState({
+  //   flightFrom: "",
+  //   flightTo: "",
+  //   departing: "",
+  //   returning: "",
+  //   adult: "",
+  //   child: "",
+  // });
   const [passengerHotelDetails, setpassengerHotelDetails] = React.useState({
     name: "",
     checkIn: "",
@@ -29,11 +29,11 @@ export default function BasicSelect({ type }) {
   });
   const [value, setValue] = React.useState(new Date());
 
-  const handleFlightChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setpassengerFlightDetails({ ...passengerFlightDetails, [name]: value });
-  };
+  // const handleFlightChange = (event) => {
+  //   const name = event.target.name;
+  //   const value = event.target.value;
+  //   setpassengerFlightDetails({ ...passengerFlightDetails, [name]: value });
+  // };
   const handleHotelChange = (event) => {
     const name = event.target.name;
     const value = event.target.value;
