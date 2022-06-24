@@ -29,10 +29,11 @@ function Navbar() {
             <Link to="/support">support</Link>
           </li>
           <div className="support-dropdown-content">
-            <a href="#">08111122241</a>
-            <a href="#">08111122241</a>
-            <a href="#">08111122241</a>
-            <a href="#">08111122241</a>
+            <a href="tel:+08111122241">08111122241</a>
+            <a href="tel:+08111122241">08111122241</a>
+            <a href="tel:+08111122241">08111122241</a>
+            <a href="tel:+08111122241">08111122241</a>
+            <a href="tel:+08111122241">08111122241</a>
           </div>
         </div>
         <li>
