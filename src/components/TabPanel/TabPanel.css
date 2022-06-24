@@ -24,7 +24,6 @@
 }
 
 #tabpanel__container {
-  display: block !important;
   flex-direction: column !important;
 }
 
@@ -42,6 +41,7 @@
 
 .tabpanel-dropdown {
   display: flex !important;
+
 }
 
 .css-1gsv261 {
@@ -56,4 +56,8 @@
 .css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
   border: 1px solid rgba(25, 118, 210, 0.5) !important;
   color: #1976d2 !important;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  height: 35px;
 }
