@@ -10,7 +10,7 @@
   padding: 2rem !important;
 }
 /* Styling for TABPANEL TITLE TEXT */
-.css-h0q0iv-MuiButtonBase-root-MuiTab-root {
+.tab {
   background-color: rgba(185, 205, 227, 0.8) !important;
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;

@@ -63,12 +63,14 @@ export default function BasicTabs() {
             icon={<FlightIcon />}
             iconPosition="start"
             label="Book Flights"
+            className="tab"
             {...a11yProps(0)}
           />
           <Tab
             icon={<LuggageIcon />}
             iconPosition="start"
             label="Book Hotels"
+            className="tab"
             {...a11yProps(1)}
           />
         </Tabs>
