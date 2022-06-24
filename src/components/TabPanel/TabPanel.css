@@ -15,7 +15,7 @@
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
 }
-.tab .Mui-selected {
+.tab.Mui-selected {
   background-color: #0e3c6e !important;
   color: #fff !important;
   border-top-left-radius: 5px;
