@@ -1,5 +1,5 @@
 /* Styling for TABPANEL TEXT */
-.tab .MuiButtonBase-root-MuiTab-root,
+.tab .MuiButtonBase-root .MuiTab-root,
 .tab .MuiTypography-root, .tab .MuiTabs-flex {
   color: #fff !important;
 }
@@ -15,7 +15,7 @@
   border-top-left-radius: 5px !important;
   border-top-right-radius: 5px !important;
 }
-.css-h0q0iv-MuiButtonBase-root-MuiTab-root.Mui-selected {
+.tab .Mui-selected {
   background-color: #0e3c6e !important;
   color: #fff !important;
   border-top-left-radius: 5px;
