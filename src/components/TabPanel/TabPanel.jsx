@@ -9,6 +9,7 @@ import './TabPanel.css'
 import { Button } from '@mui/material';
 import FlightIcon from '@mui/icons-material/Flight';
 import LuggageIcon from '@mui/icons-material/Luggage';
+import RadioButton from './RadioButton/RadioButton'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -58,9 +59,13 @@ export default function BasicTabs() {
           <Tab icon={<LuggageIcon/>} iconPosition="start" label="Book Hotels" {...a11yProps(1)} />
         </Tabs>
       </Box>
-      <TabPanel value={value} index={0}>
+      <TabPanel value={value} index={0} id="tabpanel__container">
+        <RadioButton className="radio__container"/>
+        <div className="tabpanel-dropdown">
+
         <Dropdowns type="flight"/>
         <Button variant='outlined'>Search</Button>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <Dropdowns type="hotel"/>

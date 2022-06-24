@@ -23,6 +23,11 @@
   border-top-right-radius: 5px;
 }
 
+#tabpanel__container {
+  display: block !important;
+  flex-direction: column !important;
+}
+
 .css-h0q0iv-MuiButtonBase-root-MuiTab-root {
   min-height: 0 !important;
 }
@@ -35,8 +40,8 @@
   display: none;
 }
 
-.css-ahj2mt-MuiTypography-root{
-  display: flex;
+.tabpanel-dropdown {
+  display: flex !important;
 }
 
 .css-1gsv261 {
