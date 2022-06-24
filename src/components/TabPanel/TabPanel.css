@@ -1,6 +1,6 @@
 /* Styling for TABPANEL TEXT */
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root,
-.css-ahj2mt-MuiTypography-root {
+.css-ahj2mt-MuiTypography-root, .tab .MuiTabs-flex {
   color: #fff !important;
 }
 /* Styling for TABPANEL CONTENT CONTAINER */
