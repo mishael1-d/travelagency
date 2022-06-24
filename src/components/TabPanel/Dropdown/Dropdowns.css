@@ -1,4 +1,4 @@
-.css-1nrlq1o-MuiFormControl-root {
+.autocomplete-box .MuiFormControl-root {
   width: fit-content;
   margin-right: 0.5rem !important;
 }
@@ -10,106 +10,105 @@
 #demo-simple-select-name {
   width: 250px !important;
 }
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root,
-.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
-.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root, .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root,
+.autocomplete-box .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input,
+.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root, .autocomplete-box .MuiInputBase-input.MuiOutlinedInput-input {
   color: #fff !important;
 }
 
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root .css-i4bv87-MuiSvgIcon-root {
+.autocomplete-box .MuiFormControl-root.MuiTextField-root, .autocomplete-box.MuiSvgIcon-root {
     fill: #fff !important;
 }
 
-.css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root {
   transform: translate(5px, -21px) scale(0.75) !important;
 }
 
-.css-1dv0nny-MuiAutocomplete-root, .css-1u3bzj6-MuiFormControl-root-MuiTextField-root, .css-y3ahi9-MuiAutocomplete-root {
+.autocomplete-box.MuiAutocomplete-root, .autocomplete-box .MuiFormControl-root.MuiTextField-root, .autocomplete-box.MuiAutocomplete-root {
   margin-right: .5rem !important;
 }
 
-.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input,
-.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root, .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+.autocomplete-box .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input,
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root, .autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
   border: none !important;
   outline: none !important;
   padding: 0.1rem 1rem !important;
   background-color: rgba(208, 225, 243, 0.2) !important;
   opacity: .8;
 }
-.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
   height: 36px !important;
 }
 
-.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
     width: 180px !important;
 }
 
-.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input:focus, .MuiAutocomplete-inputFocused{
+.autocomplete-box .MuiInputBase-input.MuiOutlinedInput-input:focus, .MuiAutocomplete-inputFocused{
     border: none !important;
 }
 
-.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root:hover
-  .MuiOutlinedInput-notchedOutline {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root.MuiSelect-root:hover,.MuiOutlinedInput-notchedOutline {
   outline: none !important;
   border: none !important;
 }
 
 
-.css-ptiqhd-MuiSvgIcon-root {
+.autocomplete-box .MuiSvgIcon-root {
     display: none !important;
 }
 
-.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root.MuiSelect-root {
   line-height: 2rem !important;
 }
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root {
   top: -10px !important;
 }
-.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon,
-.css-1q60rmi-MuiAutocomplete-endAdornment .css-i4bv87-MuiSvgIcon-root
+.autocomplete-box .MuiSvgIcon-root.MuiSelect-icon,
+.autocomplete-box .MuiAutocomplete-endAdornment, .autocomplete-box .MuiSvgIcon-root
 {
   fill: #fff !important;
 }
 /* #1976d2 */
 
 /* Autocomplete component  */
-.css-ece9u5 {
+.autocomplete-box {
   display: flex !important;
 }
 
 /* Date */
-.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
     height: 36px !important;
 }
 
 @media screen and (max-width: 1024px) {
-  .css-ece9u5{
+  .autocomplete-box{
     display: flex !important;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: flex-end;
   }
-.css-1dv0nny-MuiAutocomplete-root, .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+.autocomplete-box .MuiAutocomplete-root, .autocomplete-box .MuiFormControl-root.MuiTextField-root {
   width: 48% !important;
   margin-bottom: 1rem;
 }
-.css-1u3bzj6-MuiFormControl-root-MuiTextField-root  {
+.autocomplete-box .MuiFormControl-root.MuiTextField-root  {
   margin-top: 1rem !important;
 }
-.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
   width: 100% !important;
 }
-.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+.autocomplete-box .MuiButtonBase-root.MuiButton-root {
   margin-top: 1rem !important;
 }
-#hotel .css-y3ahi9-MuiAutocomplete-root {
+#hotel .autocomplete-box .MuiAutocomplete-root {
   width: 100% !important;
   margin-bottom: 1rem;
 }
-#hotel .css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+#hotel .autocomplete-box .MuiFormControl-root.MuiTextField-root{
   width: 180px !important;
 }
-#hotel .css-1nrlq1o-MuiFormControl-root {
+#hotel .autocomplete-box.MuiFormControl-root {
   padding-bottom: 0 !important;
 }
 }

@@ -41,7 +41,7 @@ export default function BasicSelect({ type }) {
   };
 
   return (
-    <Box sx={{ minWidth: 120 }}>
+    <Box sx={{ minWidth: 120 }} className="autocomplete-box">
       {type === "flight" ? (
         <>
           <Autocomplete
