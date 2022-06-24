@@ -43,12 +43,12 @@ function Hero() {
         <div>
           <p className="hero-subtitle">Looking for an ADVENTURE</p>
           <h3 className="hero-title">Search and Book Flights </h3>
-          <h3 className="hero-title">and Hotels on HOVATRAVELS</h3>
+          <h3 className="hero-title">on HOVATRAVELS</h3>
         </div>
         <div>
-          <p className="hero-subtitle">Welcome to HOVATRAVELS</p>
-          <h3 className="hero-title">Search and Book Flights </h3>
-          <h3 className="hero-title">and Hotels</h3>
+          <p className="hero-subtitle">Looking for a place to STAY on vacation</p>
+          <h3 className="hero-title">Search and Book Hotels </h3>
+          <h3 className="hero-title">on HOVATRAVELS</h3>
         </div>
         </OwlCarousel>
         <div className="tabpanel__container">
