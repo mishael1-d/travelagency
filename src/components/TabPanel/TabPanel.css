@@ -1,91 +1,46 @@
-/* Styling for TABPANEL TEXT */
-.tab.MuiButtonBase-root.MuiTab-root,
-.tab.MuiTypography-root, .tab.MuiTabs-flex {
-  color: #fff !important;
+.tabpanel__container {
+  width: 100%;
+  height: auto;
+  min-height: 230px;
+  opacity: 0.8;
+  padding: 2rem 1.5rem;
+  border-radius: 0 5px 5px 5px;
 }
-/* Styling for TABPANEL CONTENT CONTAINER */
-.css-19kzrtu {
+
+.tabpanel__container ul.tab-nav__container {
+  width: 60%;
+  /* margin: 0 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tabpanel__container ul.tab-nav__container li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all .8s;
+}
+
+.tabpanel__container ul.tab-nav__container li.active {
   background-color: #0e3c6e;
-  margin-top: 0.05rem;
-  padding: 2rem !important;
-}
-/* Styling for TABPANEL TITLE TEXT */
-.tab {
-  background-color: rgba(185, 205, 227, 0.8) !important;
-  border-top-left-radius: 5px !important;
-  border-top-right-radius: 5px !important;
-}
-.tab.Mui-selected {
-  background-color: #0e3c6e !important;
-  color: #fff !important;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-
 }
 
-#tabpanel__container {
-  flex-direction: column !important;
+.tabpanel__container ul.tab-nav__container li:nth-child(2)
+
+.tab-nav__container {
+  height: 20%;
 }
 
-.tab.MuiButtonBase-root.MuiTab-root {
-  min-height: 0 !important;
+.tab-content__container {
+  background-color: #0e3c6e;
+  min-height: 80%;
 }
 
 
-#simple-tab-0 {
-  margin-right: 5px;
-}
-/* Styling for INDICATOR UNDER TEXT */
-.tab.MuiTabs-indicator {
-  display: none;
-}
-
-.tabpanel-dropdown {
-  display: flex !important;
-
-}
-
-.css-1gsv261 {
-  border-bottom: none !important;
-}
-
-.tab.MuiButtonBase-root.MuiButton-root {
-  border:1px solid #f5f5f5 !important;
-  color: #f6f6f6 !important;
-}
-
-.tab.MuiButtonBase-root.MuiButton-root:hover{
-  border: 1px solid rgba(25, 118, 210, 0.5) !important;
-  color: #1976d2 !important;
-}
-
-.tab.MuiButtonBase-root.MuiButton-root {
-  height: 35px;
-}
-
-.divider-v {
-  width: 2px;
-  height: 60px;
-  background-color: #fff;
-  margin-right: 1.5rem;
-}
-
-
-@media screen and (max-width: 1024px) {
-  .tabpanel-dropdown {
-    display: grid !important;
-  }
-  .divider-v {
-    display: none;
-  }
-  .tab.MuiTabs-flexContainer {
-    flex-wrap: wrap;
-  }
-}
-
-@media screen and (max-width: 430px) {
-  #simple-tab-0, #simple-tab-1 {
-    flex-direction: column;
-    width: 49%;
-  }
+.firstTab p, .secondTab p {
+font-size: 2rem;
+text-align:  center;
 }
