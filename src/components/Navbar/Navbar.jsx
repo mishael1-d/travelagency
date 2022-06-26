@@ -2,6 +2,10 @@ import React from "react";
 import logo1 from "../../assets/logo1.png";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import call from "../../assets/call.png";
+import whatsapp from "../../assets/Whatsapp.png";
+import mail from "../../assets/mail.png";
+import flag from "../../assets/flag.png";
 
 function Navbar() {
   return (
@@ -14,10 +18,13 @@ function Navbar() {
         </div>
         <ul className="navbar-left-links__container">
           <li>
-            <Link to="/flights">flights</Link>
+            <Link to="">flights</Link>
           </li>
           <li>
-            <Link to="/hotels">hotels</Link>
+            <Link to="">hotels</Link>
+          </li>
+          <li>
+            <Link to="">More</Link>
           </li>
         </ul>
       </div>
@@ -25,24 +32,27 @@ function Navbar() {
       {/* Navigation (right) container */}
       <ul className="navbar-right-side__container">
         <div className="support-dropdown">
-          <li>
-            support
-          </li>
+          <li>support</li>
           <div className="support-dropdown-content">
-            <a href="tel:+2347044040403">0704 404 0403</a>
+            <div className="support-dropdown-item">
+              <img src={call} alt="" className="support-item-img" />
+              <a href="tel:+2347044040403">0704 404 0403</a>
+            </div>
+            <div className="support-dropdown-item">
+              <img src={whatsapp} alt="" className="support-item-img" />
+              <a href="tel:+2347044040403">WhatsApp</a>
+            </div>
+            <div className="support-dropdown-item">
+              <img src={mail} alt="" className="support-item-img" />
+              <a href="mailto:support@hovapay.ng">support@hovapay.ng</a>
+            </div>
           </div>
         </div>
-        <div className="support-dropdown">
-          <li>
-            Menu
-          </li>
-          <div className="support-dropdown-content">
-          <li>
-          <Link to="/features">Sign up | Login</Link>
+        <li className="currency">
+          <img src={flag} alt="" />
+          <span>NGN</span>
         </li>
-          </div>
-        </div>
-        
+        <li>Manage My Booking</li>
       </ul>
     </div>
   );

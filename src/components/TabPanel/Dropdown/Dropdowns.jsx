@@ -6,9 +6,9 @@ import Select from "@mui/material/Select";
 import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
-import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
+// import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+// import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
+// import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 
 import "./Dropdowns.css";
 
@@ -58,7 +58,7 @@ export default function BasicSelect({ type }) {
             sx={{ width: 200 }}
             renderInput={(params) => <TextField {...params} label="To" />}
           />
-          <LocalizationProvider dateAdapter={AdapterDateFns}>
+          {/* <LocalizationProvider dateAdapter={AdapterDateFns}>
             <DatePicker
               label="Departing"
               value={value}
@@ -77,7 +77,7 @@ export default function BasicSelect({ type }) {
               }}
               renderInput={(params) => <TextField {...params} />}
             />
-          </LocalizationProvider>
+          </LocalizationProvider> */}
 
           {/* <FormControl>
             <InputLabel id="demo-simple-select-label">Flying From:</InputLabel>
@@ -191,7 +191,7 @@ export default function BasicSelect({ type }) {
             sx={{ width: 250 }}
             renderInput={(params) => <TextField {...params} label="Name of City" />}
           />
-          <LocalizationProvider dateAdapter={AdapterDateFns}>
+          {/* <LocalizationProvider dateAdapter={AdapterDateFns}>
             <DatePicker
               label="Check-in"
               value={value}
@@ -210,7 +210,7 @@ export default function BasicSelect({ type }) {
               }}
               renderInput={(params) => <TextField {...params} />}
             />
-            </LocalizationProvider>
+            </LocalizationProvider> */}
           <FormControl>
             <InputLabel id="demo-simple-select-label">Adult</InputLabel>
             <Select
