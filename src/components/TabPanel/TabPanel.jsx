@@ -6,10 +6,8 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Dropdowns from "./Dropdown/Dropdowns";
 import "./TabPanel.css";
-import { Button } from "@mui/material";
-import FlightIcon from "@mui/icons-material/Flight";
-import LuggageIcon from "@mui/icons-material/Luggage";
-import RadioButton from "./RadioButton/RadioButton";
+import { Button, Icon } from "@mui/material";
+import flight from '../../assets/flight.png'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -60,14 +58,13 @@ export default function BasicTabs() {
           aria-label="basic tabs example"
         >
           <Tab
-            icon={<FlightIcon />}
+            <Icon></Icon>
             iconPosition="start"
             label="Book Flights"
             className="tab"
             {...a11yProps(0)}
           />
           <Tab
-            icon={<LuggageIcon />}
             iconPosition="start"
             label="Book Hotels"
             className="tab"
@@ -75,7 +72,7 @@ export default function BasicTabs() {
           />
         </Tabs>
       </Box>
-      <TabPanel value={value} index={0} id="tabpanel__container">
+      {/* <TabPanel value={value} index={0} id="tabpanel__container">
         <RadioButton className="radio__container" type="flight"/>
         <div className="tabpanel-dropdown">
           <Dropdowns type="flight" />
@@ -88,7 +85,7 @@ export default function BasicTabs() {
           <Dropdowns type="hotel" />
           <Button variant="outlined">Search</Button>
         </div>
-      </TabPanel>
+      </TabPanel> */}
     </Box>
   );
 }
