@@ -1,12 +1,12 @@
 import * as React from "react";
+import flightIcon from "../../assets/flight.png";
+import hotelIcon from "../../assets/hotel.png";
 import "./TabPanel.css";
 
 export const FirstTab = () => {
-  return (
-    <div className="firstTab">
-      <p>First Tab</p>
-    </div>
-  );
+  return <div className="firstTab">
+   <p>First Tab</p>
+  </div>;
 };
 export const SecondTab = () => {
   return (
@@ -32,13 +32,19 @@ function TabPanel() {
           className={activeTab === "tab1" ? "active" : ""}
           onClick={handleTab1}
         >
-          Tab 1
+          <div className="tab-title">
+            <img src={flightIcon} alt="" />
+            <p>Flights</p>
+          </div>
         </li>
         <li
           className={activeTab === "tab2" ? "active" : ""}
           onClick={handleTab2}
         >
-          Tab 2
+          <div className="tab-title">
+            <img src={hotelIcon} alt="" />
+            <p>Hotels</p>
+          </div>
         </li>
       </ul>
       <div className="tab-content__container">
