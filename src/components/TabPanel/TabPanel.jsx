@@ -1,11 +1,12 @@
 import * as React from "react";
 import flightIcon from "../../assets/flight.png";
 import hotelIcon from "../../assets/hotel.png";
+import BasicSelect from "./Dropdown/Dropdowns";
 import "./TabPanel.css";
 
 export const FirstTab = () => {
   return <div className="firstTab">
-   <p>First Tab</p>
+   <BasicSelect />
   </div>;
 };
 export const SecondTab = () => {
@@ -34,7 +35,7 @@ function TabPanel() {
         >
           <div className="tab-title">
             <img src={flightIcon} alt="" />
-            <p>Flights</p>
+            <p>Book Flights</p>
           </div>
         </li>
         <li
@@ -43,7 +44,7 @@ function TabPanel() {
         >
           <div className="tab-title">
             <img src={hotelIcon} alt="" />
-            <p>Hotels</p>
+            <p>Find Hotels</p>
           </div>
         </li>
       </ul>

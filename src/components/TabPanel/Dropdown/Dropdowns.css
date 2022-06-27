@@ -1,114 +1,29 @@
-.autocomplete-box .MuiFormControl-root {
-  width: fit-content;
-  margin-right: 0.5rem !important;
-}
-
-#demo-simple-select-adult,
-#demo-simple-select-child {
-  width: 60px;
-}
-#demo-simple-select-name {
-  width: 250px !important;
-}
-.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root,
-.autocomplete-box .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input,
-.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root, .autocomplete-box .MuiInputBase-input.MuiOutlinedInput-input {
-  color: #fff !important;
-}
-
-.autocomplete-box .MuiFormControl-root.MuiTextField-root, .autocomplete-box.MuiSvgIcon-root {
-    fill: #fff !important;
-}
-
-.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root {
-  transform: translate(5px, -21px) scale(0.75) !important;
-}
-
-.autocomplete-box.MuiAutocomplete-root, .autocomplete-box .MuiFormControl-root.MuiTextField-root, .autocomplete-box.MuiAutocomplete-root {
-  margin-right: .5rem !important;
-}
-
-.autocomplete-box .MuiSelect-select.MuiInputBase-input.MuiOutlinedInput-input,
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root, .autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
-  border: none !important;
-  outline: none !important;
-  padding: 0.1rem 1rem !important;
-  background-color: rgba(208, 225, 243, 0.2) !important;
-  opacity: .8;
-}
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
-  height: 36px !important;
-}
-
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
-    width: 180px !important;
-}
-
-.autocomplete-box .MuiInputBase-input.MuiOutlinedInput-input:focus, .MuiAutocomplete-inputFocused{
-    border: none !important;
-}
-
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root.MuiSelect-root:hover,.MuiOutlinedInput-notchedOutline {
-  outline: none !important;
-  border: none !important;
-}
-
-
-.autocomplete-box .MuiSvgIcon-root {
-    display: none !important;
-}
-
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root.MuiSelect-root {
-  line-height: 2rem !important;
-}
-.autocomplete-box .MuiFormLabel-root.MuiInputLabel-root {
-  top: -10px !important;
-}
-.autocomplete-box .MuiSvgIcon-root.MuiSelect-icon,
-.autocomplete-box .MuiAutocomplete-endAdornment, .autocomplete-box .MuiSvgIcon-root
-{
-  fill: #fff !important;
-}
-/* #1976d2 */
-
-/* Autocomplete component  */
-.autocomplete-box {
+.select-dropdown__container {
   display: flex !important;
 }
-
-/* Date */
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
-    height: 36px !important;
+.select-btn {
+  min-width: 132px;
 }
 
-@media screen and (max-width: 1024px) {
-  .autocomplete-box{
-    display: flex !important;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: flex-end;
-  }
-.autocomplete-box .MuiAutocomplete-root, .autocomplete-box .MuiFormControl-root.MuiTextField-root {
-  width: 48% !important;
-  margin-bottom: 1rem;
+.select-dropdown__value-container {
+  display: flex !important;
 }
-.autocomplete-box .MuiFormControl-root.MuiTextField-root  {
-  margin-top: 1rem !important;
+.select-dropdown__control {
+  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%) !important;
+  border-color: #9bc100 !important;
 }
-.autocomplete-box .MuiInputBase-root.MuiOutlinedInput-root {
-  width: 100% !important;
+
+.select-dropdown__single-value {
+  color: #0e3c6e !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  line-height: 19px !important;
 }
-.autocomplete-box .MuiButtonBase-root.MuiButton-root {
-  margin-top: 1rem !important;
+
+.select-dropdown__indicator-separator {
+  display: none !important
 }
-#hotel .autocomplete-box .MuiAutocomplete-root {
-  width: 100% !important;
-  margin-bottom: 1rem;
-}
-#hotel .autocomplete-box .MuiFormControl-root.MuiTextField-root{
-  width: 180px !important;
-}
-#hotel .autocomplete-box.MuiFormControl-root {
-  padding-bottom: 0 !important;
-}
+
+.select-dropdown__indicator.select-dropdown__dropdown-indicator svg {
+  fill: #0e3c6e !important;
 }
