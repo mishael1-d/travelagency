@@ -1,10 +1,14 @@
+.flight-wrapper {
+  background-color: #eef6ff;
+  overflow: hidden;
+}
 .flight-wrapper .heading {
   display: flex;
   align-items: center;
   margin: 0.5rem 0;
 }
 .flight-wrapper .heading h3 {
-  margin-right: 0.5rem;
+  margin-bottom: 1.4rem;
 }
 .flight-wrapper .heading img {
   object-fit: cover;
@@ -20,14 +24,16 @@
 }
 .flight-wrapper figure {
   margin-right: 1.05rem;
+  border-radius: 5px;
 }
 .flight-wrapper figure img {
+  border-radius: 5px;
   width: 300px;
   height: 240px;
   object-fit: cover;
 }
 .owl-theme .owl-nav [class*="owl-"] {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 .owl-next {
   position: absolute;
@@ -37,7 +43,7 @@
   top: 50%;
   transform: translateY(-50%);
   background-color: #fff !important;
-  color: #399af4 !important;
+  color: #000 !important;
   font-size: 28px !important;
   border-radius: 50% !important;
   outline: 0;
@@ -45,10 +51,11 @@
   right: -20px;
   overflow: hidden;
 }
-.owl-next span,.owl-prev span {
-    padding: 0 10px !important;
-    text-align: center;
-    font-size: 2.5rem;
+.owl-next span,
+.owl-prev span {
+  padding: 0 22px !important;
+  text-align: center;
+  font-size: 2.5rem;
 }
 .owl-prev {
   position: absolute;
@@ -58,11 +65,80 @@
   top: 50%;
   transform: translateY(-50%);
   background-color: #fff !important;
-  color: #399af4 !important;
+  color: #000 !important;
   font-size: 28px !important;
   border-radius: 50% !important;
   outline: 0;
   text-align: right;
   left: -35px;
-  
+}
+
+.location-overlay__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 24px 22px;
+}
+
+.paynow-overlay__container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 24px 22px;
+}
+
+.location-overlay__content,
+.paynow-overlay__content {
+  color: #fff !important;
+  display: flex;
+  align-items: flex-start;
+}
+
+.location-overlay__content .body {
+  flex: 1;
+}
+.location-overlay__content .body h5,
+.paynow-overlay__content h5 {
+  font-size: 24px;
+  margin-bottom: 0.6rem;
+}
+.location {
+  padding: 5px 10px;
+  display: flex;
+  border-radius: 5px;
+  width: fit-content;
+  color: #000 !important;
+  background-color: rgba(255, 255, 255, .6);
+}
+.location p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.location span {
+  margin-left: 1rem;
+}
+
+.paynow-overlay__content {
+  border: 1px solid #efff3a;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.paynow-overlay__content .body1 {
+  padding: 5px 10px;
+}
+.pay-discount {
+  width: 50%;
+  height: 100%;
+}
+.pay-discount .body {
+  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%);
+  padding: 5px 10px;
+}
+.pay-discount .body p,
+.pay-discount .body h5 {
+  color: #000;
 }

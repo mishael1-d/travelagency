@@ -1,36 +1,19 @@
-.text__container {
+.card__container, .card-content__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
 }
 
-.textbox {
-    margin: 0 .5rem;
+.card-content__container img {
+    margin-right: 1.2rem;
 }
 
-.textbox caption {
-    min-width: 240px;
-    text-align: center;
-}
-/*
-caption .c-title {
-font-size: 1.2rem;
-margin: .5rem 0;
-}
-caption .c-subtitle {
-    font-size: .9rem;
-    color: #959595;
+.card-content__container .card-text__title {
+    font-size: 18px;
+    margin-bottom: .5rem;
 }
 
-.textbox figure img:hover {
-    fill: red;
+.card-content__container p {
+    font-size: 14px;
+    color: #666;
 }
-
-@media screen and (max-width: 1024px) {
-    .textbox {
-        width: 35%;
-        margin: 1rem .5rem;
-    }
-} */

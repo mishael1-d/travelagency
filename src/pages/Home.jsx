@@ -13,9 +13,9 @@ function Home() {
   return (
     <>
       <Hero/>
-      {/* <Why />
+       <Why />
       <Flights/>
-      <Hotels/>
+      {/*<Hotels/>
       <AppBanner/>
       <Newsletter/>
       <SeoFooter/>
