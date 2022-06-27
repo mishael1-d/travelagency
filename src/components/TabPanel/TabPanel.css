@@ -6,7 +6,7 @@
 }
 
 .tabpanel__container ul.tab-nav__container {
-  width: 35%;
+  width: 30%;
   /* margin: 0 2rem; */
   display: flex;
   flex-wrap: wrap;
@@ -55,6 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .tab-title img {
