@@ -40,7 +40,7 @@ function Navbar() {
             </div>
             <div className="support-dropdown-item">
               <img src={whatsapp} alt="" className="support-item-img" />
-              <a href="tel:+2347044040403">WhatsApp</a>
+              <a href="https://api.whatsapp.com/send/07044040403">WhatsApp</a>
             </div>
             <div className="support-dropdown-item">
               <img src={mail} alt="" className="support-item-img" />

@@ -18,7 +18,7 @@ function Checkbox() {
         </span>
       </div>
       <div className="reason">
-        <p><a href="#why">Why this?</a></p>
+        <p><a href="https://google.com">Why this?</a></p>
       </div>
     </div>
   );
