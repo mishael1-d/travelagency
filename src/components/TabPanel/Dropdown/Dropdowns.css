@@ -3,6 +3,7 @@
 }
 .select-btn {
   min-width: 132px;
+  margin-right: 10px;
 }
 
 .select-dropdown__value-container {
