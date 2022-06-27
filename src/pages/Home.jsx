@@ -15,11 +15,11 @@ function Home() {
       <Hero/>
        <Why />
       <Flights/>
-      {/*<Hotels/>
+      <Hotels/>
       <AppBanner/>
       <Newsletter/>
       <SeoFooter/>
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }

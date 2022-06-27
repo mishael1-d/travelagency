@@ -5,7 +5,6 @@ import im3 from "../../assets/Instabul.jpg";
 import im4 from "../../assets/Kigali.jpg";
 import im5 from "../../assets/new-york.jpg";
 import im6 from "../../assets/New Delhi.png";
-import verified from "../../assets/verified.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -16,33 +15,80 @@ function Hotels() {
       <div className="container">
         <div className="heading">
           <h3>Hotels in Popular Locations</h3>
-          <img src={verified} alt="" />
         </div>
         <OwlCarousel
           className="owl-theme"
           items={2}
           margin={8}
-          autoplay={true}
+          autoplay={false}
           loop
           nav
         >
           <figure>
             <img src={im1} alt="" className="img1" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>Dubai</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+            </div>
           </figure>
           <figure>
             <img src={im2} alt="" className="img2" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>Lagos</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+              </div>
           </figure>
           <figure>
             <img src={im3} alt="" className="img3" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>London</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+              </div>
           </figure>
           <figure>
             <img src={im4} alt="" className="img4" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>Abuja</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+              </div>
           </figure>
           <figure>
             <img src={im5} alt="" className="img5" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>Nairobi</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+              </div>
           </figure>
           <figure>
             <img src={im6} alt="" className="img5" />
+            <div className="hotel-overlay__container">
+              <div className="hotel-overlay__content">
+                <div className="body">
+                  <h5>Dubai</h5>
+                  <p>300 Hotels</p>
+                </div>
+              </div>
+              </div>
           </figure>
         </OwlCarousel>
       </div>

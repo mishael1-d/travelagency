@@ -5,7 +5,7 @@
   font-size: 1rem;
   line-height: 1rem;
   margin-bottom: 1.5rem !important;
-  color: #234;
+  
   font-weight: 500;
   margin: 0;
 }
@@ -13,7 +13,7 @@
     margin-bottom: 1rem;
 }
 
-.seo-footer__container p, .flight-links ul li {
+ .flight-links ul li {
 color: #6d8494;
 }
 

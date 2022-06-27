@@ -108,12 +108,6 @@ function SeoFooter() {
             </div>
           </div>
         </div>
-        <hr className="dotted-lines" />
-        <div className="content">
-          <h5>Follow Us!</h5>
-          <p>Stay tuned and access the latest deals and discounts with:</p>
-          <ul className="sm-links__container"></ul>
-        </div>
       </div>
     </div>
   );

@@ -5,7 +5,6 @@ import im3 from "../../assets/Instabul.jpg";
 import im4 from "../../assets/Kigali.jpg";
 import im5 from "../../assets/new-york.jpg";
 import im6 from "../../assets/New Delhi.png";
-import verified from "../../assets/verified.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
