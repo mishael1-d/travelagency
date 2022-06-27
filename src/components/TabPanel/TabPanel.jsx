@@ -1,18 +1,26 @@
 import * as React from "react";
 import flightIcon from "../../assets/flight.png";
 import hotelIcon from "../../assets/hotel.png";
+import Checkbox from "./CheckboxInput/Checkbox";
 import BasicSelect from "./Dropdown/Dropdowns";
+import InputField from "./FlightInputField/FlightInputField";
+import HotelInputField from "./HotelInputField/HotelInputField";
 import "./TabPanel.css";
 
+
 export const FirstTab = () => {
-  return <div className="firstTab">
-   <BasicSelect />
-  </div>;
+  return (
+    <div className="firstTab">
+      <BasicSelect />
+      <InputField />
+    </div>
+  );
 };
 export const SecondTab = () => {
   return (
     <div className="secondTab">
-      <p>Second Tab</p>
+      <Checkbox />
+      <HotelInputField/>
     </div>
   );
 };

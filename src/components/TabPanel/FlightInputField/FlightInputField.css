@@ -1,0 +1,146 @@
+.inputField__container,
+.flightDate__container {
+  display: flex;
+}
+
+.flightSearchInput__container {
+  display: flex;
+  width: 100%;
+}
+.inputContainer {
+  border-radius: 5px;
+  width: 60%;
+}
+.inputContainer,
+.dateContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 64px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  background-color: #fff;
+}
+
+.inputContainer label,
+.dateContainer label {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  z-index: 1;
+  font-size: 12px;
+  margin-bottom: 0.5rem;
+  color: #666666;
+}
+
+.inputContainer input,
+.dateContainer input {
+  position: relative;
+  top: 0;
+  height: 64px;
+  width: 100%;
+  padding-top: 1.5rem;
+  padding-left: 18px;
+  padding-right: .5rem;
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.inputContainer img {
+  position: absolute;
+  right: -32px;
+  top: 8px;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.flightRight__container {
+  display: flex;
+  position: relative;
+  width: 100%;
+  /* border-radius: 5px; */
+}
+
+.flightRight__container .dateContainer {
+  margin-right: 0;
+  border: 1px solid #ced4da;
+}
+
+.flightDate__container {
+  border-radius: 5px !important;
+  margin-right: 1rem;
+  width: 70%;
+}
+
+.flightDate__container .departing {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.flightDate__container .returning {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-btn {
+  margin-bottom: 1rem;
+  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%);
+  border-radius: 5px;
+}
+.search-btn button {
+  height: 100%;
+  color: #0e3c6e;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-right: .5rem;
+}
+
+.checkbox-input input {
+  width: 100%;
+  height: 100%;
+}
+
+.checkbox-input input[type="checkbox" i] {
+  background-color: transparent !important;
+}
+
+.checkbox_col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom .checkbox_col p, .bottom .bestValue p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.bestValue {
+  display: flex;
+  align-items: center;
+}
+.bestValue img {
+  margin-right: .5rem;
+}

@@ -1,5 +1,6 @@
 .select-dropdown__container {
   display: flex !important;
+  margin-bottom: 1rem;
 }
 .select-btn {
   min-width: 132px;
@@ -11,7 +12,10 @@
 }
 .select-dropdown__control {
   background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%) !important;
+  z-index: 1;
+  opacity: 1;
   border-color: #9bc100 !important;
+  border-radius:  5px !important;
 }
 
 .select-dropdown__single-value {
