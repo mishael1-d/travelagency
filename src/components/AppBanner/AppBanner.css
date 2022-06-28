@@ -42,3 +42,16 @@
 .qr-code-link img {
     width: 100%;
 }
+
+@media screen and (max-width: 1200px) {
+    .app_advert_container .advert_img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app-banner__wrapper {
+        margin: 0;
+        padding: 0 2rem;
+    }
+}

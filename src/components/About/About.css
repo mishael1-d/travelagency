@@ -6,6 +6,7 @@
 
 .about-section-content {
     color: #6d8494;
+    text-align: justify;
 }
 
 .about-section-content span {
@@ -20,4 +21,10 @@
 
 .about-section-content ul li {
     margin: .5rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .about-section__container {
+        padding: 2rem !important;
+    }
 }

@@ -142,3 +142,17 @@
 .pay-discount .body h5 {
   color: #000;
 }
+
+
+@media screen and (max-width: 600px) {
+  .flight-wrapper .heading {
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+  .owl-carousel {
+    padding: 0 2rem;
+  }
+  .owl-nav {
+    display: none;
+  }
+}

@@ -6,7 +6,7 @@
 }
 
 .tabpanel__container ul.tab-nav__container {
-  width: 30%;
+  width: 40%;
   /* margin: 0 2rem; */
   display: flex;
   flex-wrap: wrap;
@@ -60,4 +60,26 @@
 
 .tab-title img {
   margin-right: 12px;
+}
+
+@media screen and (max-width: 600px) {
+  .tabpanel__container ul.tab-nav__container{
+    width: 100%;
+  }
+  .tab-title {
+    flex-direction: column;
+  }
+  .tab-title img {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+  .tab-content__container {
+    background: none;
+    opacity: 1;
+  }
+  .tabpanel__container ul.tab-nav__container li {
+    border-radius: 0;
+    padding: 1rem;
+    text-transform: capitalize;
+  }
 }

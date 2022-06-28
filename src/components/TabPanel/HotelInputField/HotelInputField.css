@@ -151,3 +151,29 @@
 .bestValue img {
   margin-right: .5rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .hotelSearchInput__container{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .inputContainer {
+    margin-right: 0;
+  }
+  .inputContainer img {
+    left: 150px;
+    top: 50px;
+  }
+  .hotelRight__container {
+    flex-wrap: wrap;
+  }
+  .hotelDate__container {
+    width: 100%;
+  }
+  .hotelbottom .bestValue p {
+    padding: 0;
+  }
+}

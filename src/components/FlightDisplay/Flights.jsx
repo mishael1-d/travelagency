@@ -9,6 +9,27 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./Flights.css";
+
+const options = {
+  margin: 8,
+  responsiveClass: true,
+  nav: true,
+  loop: true,
+  dots: true,
+  autoplay: false,
+  responsive: {
+      0: {
+          items: 1,
+      },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 3,
+
+      }
+  },
+};
 function Flights() {
   return (
     <div className="flight-wrapper">
@@ -18,11 +39,7 @@ function Flights() {
         </div>
         <OwlCarousel
           className="owl-theme"
-          items={3}
-          margin={8}
-          autoplay={false}
-          loop
-          nav
+          {...options}
         >
           <figure>
             <img src={im1} alt="" className="img1" />

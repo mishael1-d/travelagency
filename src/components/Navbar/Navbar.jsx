@@ -6,6 +6,7 @@ import call from "../../assets/call.png";
 import whatsapp from "../../assets/Whatsapp.png";
 import mail from "../../assets/mail.png";
 import flag from "../../assets/flag.png";
+import menuBtn from '../../assets/hamburger.png'
 
 function Navbar() {
   return (
@@ -54,7 +55,10 @@ function Navbar() {
           <img src={flag} alt="" />
           <span>NGN</span>
         </li>
-        <li>Manage My Booking</li>
+        <li className="manage">Manage My Booking</li>
+        <li className="hamburger-menu">
+          <img src={menuBtn} alt="" />
+        </li>
       </ul>
     </div>
   );

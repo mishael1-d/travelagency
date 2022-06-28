@@ -9,6 +9,27 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./Hotels.css";
+const options = {
+  margin: 8,
+  responsiveClass: true,
+  nav: true,
+  loop: true,
+  dots: true,
+  autoplay: false,
+  responsive: {
+      0: {
+          items: 1,
+      },
+      600: {
+          items: 1,
+      },
+      1000: {
+          items: 3,
+
+      }
+  },
+};
+
 function Hotels() {
   return (
     <div className="hotel-wrapper">
@@ -18,11 +39,7 @@ function Hotels() {
         </div>
         <OwlCarousel
           className="owl-theme"
-          items={2}
-          margin={8}
-          autoplay={false}
-          loop
-          nav
+          {...options}
         >
           <figure>
             <img src={im1} alt="" className="img1" />

@@ -21,6 +21,7 @@ function Footer() {
                 Small Small
               </p>
             </div>
+            <div className="dotted-lines"></div>
             <div className="content-left__top">
               <h5>Get inspired for your next trip</h5>
               <p>
@@ -41,6 +42,7 @@ function Footer() {
               <li>Hovatravel Affiliates</li>
             </ul>
           </div>
+          <div className="dotted-lines"></div>
           <div className="content-right">
             <h5>Follow Us</h5>
             <p>Stay tuned and access <br/>latest deals and discounts <br/>with:</p>

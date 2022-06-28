@@ -13,6 +13,8 @@
 }
 .navbar__container ul {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
 }
 .navbar__container ul li {
@@ -97,12 +99,33 @@
     margin-right: 5px;
 }
 
-@media screen and (max-width: 1024px) {
+.hamburger-menu {
+    display: none;
+    margin-right: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
     .navbar-left-links__container {
         display: none !important;
     }
+    .currency, .manage {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
 }
 
-@media screen and (max-width: 430px) {
-    
+@media screen and (max-width: 600px) {
+ .navbar__container {
+    padding: 2rem ;
+    align-items: flex-end;
+ }
+ .logo__container {
+    margin: 0;
+    width: 100%;
+ }
+ .navbar-left-side__container{
+    width: 40%;
+ }
 }

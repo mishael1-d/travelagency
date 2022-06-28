@@ -80,3 +80,30 @@
     text-decoration: underline;
     margin: 0 .5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .content__container {
+        padding: 2rem;
+        flex-direction: column;
+    }
+    .dotted-lines {
+        border: 1px dashed #c4c4c4;
+        margin: 1rem 0;
+      }
+      .copyright {
+        padding: 2rem;
+        flex-direction: column-reverse;
+      }
+      .footer-sm-links {
+        justify-content: flex-start;
+      }
+      .footer-sm-links li {
+        margin-right: 1rem;
+      }
+      .copy-right{
+        margin-bottom: 1rem;
+      }
+      .copy-right a {
+        margin: 1rem 1rem 2rem 0;
+      }
+}

@@ -33,3 +33,9 @@
 .select-dropdown__indicator.select-dropdown__dropdown-indicator svg {
   fill: #0e3c6e !important;
 }
+
+@media screen and (max-width: 600px) {
+  .select-dropdown__container {
+    display: none !important;
+  }
+}

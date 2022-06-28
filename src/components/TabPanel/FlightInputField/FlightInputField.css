@@ -41,7 +41,7 @@
   width: 100%;
   padding-top: 1.5rem;
   padding-left: 18px;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
   outline: 0;
   border: 0;
   border-radius: 5px;
@@ -106,7 +106,7 @@
   font-size: 14px;
 }
 
- .bottom {
+.bottom {
   display: flex;
   justify-content: space-between !important;
   align-items: flex-end;
@@ -115,7 +115,7 @@
 .checkbox-input {
   width: 20px;
   height: 20px;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .checkbox-input input {
@@ -133,7 +133,8 @@
   align-items: center;
 }
 
-.bottom .checkbox_col p, .bottom .bestValue p {
+.bottom .checkbox_col p,
+.bottom .bestValue p {
   font-size: 14px;
   color: #fff;
 }
@@ -143,5 +144,41 @@
   align-items: center;
 }
 .bestValue img {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .inputField__container {
+    flex-wrap: wrap;
+  }
+  .right {
+    width: 100%;
+  }
+  .flightRight__container {
+    justify-content: space-between;
+  }
+  .flightDate__container{
+    width: 100%;
+  }
+  .search-btn {
+    margin-right: 1rem;
+  }
+  .bottom {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flightSearchInput__container{
+    flex-direction: column;
+  }
+  .flightRight__container {
+    flex-wrap: wrap;
+  }
+  .search-btn {
+    margin:  0;
+    height: 65px;
+    text-align: center;
+    width: 100%;
+  }
 }

@@ -44,3 +44,9 @@
   border: 1px dashed #c4c4c4;
   margin: 1rem 0;
 }
+
+@media screen and (max-width: 600px) {
+    .seo-footer__container {
+        display: none;
+    }
+}
