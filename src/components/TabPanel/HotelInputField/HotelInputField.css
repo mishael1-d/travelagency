@@ -111,9 +111,9 @@
   font-size: 14px;
 }
 
-.bottom {
+.hotelbottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
@@ -138,9 +138,10 @@
   align-items: center;
 }
 
-.bottom .checkbox_col p, .bottom .bestValue p {
+.hotelbottom .bestValue p {
   font-size: 14px;
   color: #fff;
+  padding-right: 2.5rem;
 }
 
 .bestValue {

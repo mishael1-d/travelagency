@@ -43,7 +43,7 @@ function HotelInputField() {
             <button>Search hotels</button>
           </div>
         </div>
-        <div className="bottom">
+        <div className="hotelbottom">
           <div className="bestValue">
             <img src={bestvalue} alt="" />
             <p>Best Value guaranteed</p>

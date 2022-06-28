@@ -106,9 +106,9 @@
   font-size: 14px;
 }
 
-.bottom {
+ .bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between !important;
   align-items: flex-end;
 }
 
