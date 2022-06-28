@@ -1,0 +1,23 @@
+.about-section-title {
+    font-size: 36px;
+    color: #0e3c6e;
+    margin-bottom: .75rem;
+}
+
+.about-section-content {
+    color: #6d8494;
+}
+
+.about-section-content span {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+
+.about-section-content ul {
+    list-style: none;
+}
+
+.about-section-content ul li {
+    margin: .5rem 0;
+}

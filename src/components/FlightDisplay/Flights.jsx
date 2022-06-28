@@ -1,7 +1,7 @@
 import React from "react";
-import im1 from "../../assets/Abuja.png";
-import im2 from "../../assets/Accra.png";
-import im3 from "../../assets/Instabul.jpg";
+import im1 from "../../assets/bg.png";
+import im2 from "../../assets/bg1.png";
+import im3 from "../../assets/bg2.png";
 import im4 from "../../assets/Kigali.jpg";
 import im5 from "../../assets/new-york.jpg";
 import im6 from "../../assets/New Delhi.png";

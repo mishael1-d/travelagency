@@ -33,7 +33,7 @@ function Footer() {
           <div className="content-middle">
             <h5>Useful Links</h5>
             <ul>
-              <li>About Us</li>
+              <li><a href="/about">About Us</a></li>
               <li>Blog</li>
               <li>Bill Payment</li>
               <li>Refer a customer</li>
