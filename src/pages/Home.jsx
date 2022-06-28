@@ -13,13 +13,13 @@ function Home() {
   return (
     <>
       <Hero/>
-      {/* <Why />
+       <Why />
       <Flights/>
       <Hotels/>
       <AppBanner/>
       <Newsletter/>
       <SeoFooter/>
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }

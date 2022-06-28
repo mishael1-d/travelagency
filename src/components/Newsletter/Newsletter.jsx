@@ -6,10 +6,9 @@ function Newsletter() {
     <div className="newsletter__wrapper">
       <div className="container">
         <div className="newsletter__container">
-        <h4>Like travel deals?</h4>
-        <p>Enter your email and we'll send them your way.</p>
+        <h4>Subscribe to our Newsletter</h4>
         <div className="subscribe__container">
-          <form className="form__container">
+          <div className="form__container">
             <input
               type="email"
               className="email-field"
@@ -18,7 +17,7 @@ function Newsletter() {
             <button type="submit" className="button-btn">
               Subscribe
             </button>
-          </form>
+          </div>
         </div>
         <p className="p-footer">
           {" "}

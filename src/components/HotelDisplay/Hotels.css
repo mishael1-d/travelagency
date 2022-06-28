@@ -4,7 +4,7 @@
     margin: .5rem 0;
 }
 .hotel-wrapper .heading h3 {
-    margin-right: .5rem;
+    margin-bottom: 1.4rem;
 }
 .hotel-wrapper .heading img {
     object-fit: cover;
@@ -23,3 +23,22 @@
     height: 240px;
     object-fit: cover;
 }
+
+.hotel-overlay__container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 24px 22px;
+  }
+
+  .hotel-overlay__content {
+    color: #fff !important;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .hotel-overlay__content h5 {
+    font-size: 24px;
+    margin-bottom: 0.6rem;
+  }

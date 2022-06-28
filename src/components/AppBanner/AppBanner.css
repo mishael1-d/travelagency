@@ -7,13 +7,12 @@
     display: flex;
 }
 .app_advert_container .advert_img {
-    margin-top: -280px;
-    margin-left: -200px;
+    margin-top: -157px;
+    margin-left: 0px;
 }
 .app-advert__content {
     color: #fff;
     margin-top: 50px;
-    margin-left: -90px;
 }
 .app-advert__content h2 {
     margin-bottom: .5rem;
@@ -25,6 +24,21 @@
     display: flex;
     justify-content: space-between;
 }
+
+.store-links {
+    display: flex;
+    flex-direction: column;
+}
+
 .ios {
-    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.qr-code-link{
+    width: 100px;
+    height: 100px;
+}
+
+.qr-code-link img {
+    width: 100%;
 }

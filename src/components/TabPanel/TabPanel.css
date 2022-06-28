@@ -6,7 +6,7 @@
 }
 
 .tabpanel__container ul.tab-nav__container {
-  width: 35%;
+  width: 30%;
   /* margin: 0 2rem; */
   display: flex;
   flex-wrap: wrap;
@@ -46,7 +46,7 @@
 
 .tab-content__container {
   background-color: #0e3c6e;
-  padding: 24px;
+  padding: 2rem;
   opacity: 0.8;
   min-height: 80%;
 }
@@ -55,6 +55,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .tab-title img {

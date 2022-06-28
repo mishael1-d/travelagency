@@ -3,7 +3,9 @@
 }
 .newsletter__container {
   padding: 35px 0;
-  background-color: #f1f4f7;
+  background-color: #eaeaea;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .newsletter__container h4 {
   font-size: 1.5rem;
@@ -24,38 +26,52 @@
 .form__container {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   margin: 0 auto;
   text-align: center;
+  border-radius: 50px;
+  height: 60px;
 }
 .form__container input {
   flex: 0 0 75%;
   max-width: 500px;
-  height: 65px;
+  height: 50px;
   display: block;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #495057;
-  background-color: #fff;
+  color: #666666;
+  background-color: none;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   margin-right: .5rem;
   margin-bottom: 1.5rem;
-  padding: 0.375rem 0.75rem;
+  margin-left: 140px;
+  padding: 0.375rem 2rem;
+  border-radius: 50px;
+  outline: none;
 }
 .form__container button {
+  position: relative;
+  left: -135px;
+  top: 5px;
   max-width: 25%;
-  padding: 20px;
-  background-color: #0e3c6e;
-  color: #fff;
+  padding: 10px 25px;
+  height: 40px;
+  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%);
+  color: #000;
+  font-size: 16px;
   border: none;
   outline: none;
-  border-radius: 0.25rem;
-  margin-bottom: 1.5rem
+  border-radius: 50px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
 }
+
+
 .p-footer {
     max-width: 500px;
     text-align: center;
