@@ -14,7 +14,9 @@ function Navbar() {
       {/* Navigation (left) container */}
       <div className="navbar-left-side__container">
         <div className="logo__container">
-          <img src={logo1} alt="Hovapay" className="logo-img" />
+          <Link to="/">
+            <img src={logo1} alt="Hovapay" className="logo-img" />
+          </Link>
         </div>
         <ul className="navbar-left-links__container">
           <li>
