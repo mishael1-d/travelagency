@@ -47,7 +47,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
-                      <img src={arrowRight} alt="" />
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
