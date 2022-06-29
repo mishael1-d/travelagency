@@ -5,7 +5,6 @@ import im3 from "../../assets/bg2.png";
 import im4 from "../../assets/Kigali.jpg";
 import im5 from "../../assets/new-york.jpg";
 import im6 from "../../assets/New Delhi.png";
-import arrowRight from '../../assets/arrow-right.png'
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -80,7 +79,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
-                      <img src={arrowRight} alt="" />
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
@@ -113,6 +112,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
@@ -145,7 +145,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
-                      <img src={arrowRight} alt="" />
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
@@ -178,7 +178,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
-                      <img src={arrowRight} alt="" />
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
@@ -211,7 +211,7 @@ function Flights() {
                   <div className="location">
                     <p>
                       Lagos
-                      <img src={arrowRight} alt="" />
+                      <span>&#8594;</span>
                       <span>Dubai</span>
                     </p>
                   </div>
