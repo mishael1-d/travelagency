@@ -16,7 +16,7 @@ function AboutPage() {
           </p>
           <br />
           <p>
-            Hovapay has onlyexisted for a year, yet has grown to become one of
+            Hovapay has only existed for a year, yet has grown to become one of
             Nigeria’s leading travel and hotel booking portals as well as
             utility bills payment system, with physical presence in Nigeria
             having its Head Office in Port Harcourtand aggressive plans to open
