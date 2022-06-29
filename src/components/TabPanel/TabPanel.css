@@ -2,16 +2,17 @@
   width: 100%;
   height: auto;
   min-height: 230px;
-  border-radius: 0 5px 5px 5px;
+  border-radius: 5px;
 }
 
 .tabpanel__container ul.tab-nav__container {
-  width: 40%;
+  width: 30%;
   /* margin: 0 2rem; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  border-radius: 5px 5px 0 0;
 }
 
 .tabpanel__container ul.tab-nav__container li {
@@ -24,17 +25,17 @@
   transition: all .8s;
   text-transform: uppercase;
   color: #fff;
-  border-radius: 5px 5px 0 0;
   opacity: 1;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   white-space: nowrap;
   vertical-align: middle;
+  background: linear-gradient(180deg, #f17608 0%, #ee8d39 100%)
 }
 
 .tabpanel__container ul.tab-nav__container li.active {
-  background-color: #0e3c6e;
+  background: #0e3c6e;
   z-index: 1;
 }
 
@@ -47,7 +48,6 @@
 .tab-content__container {
   background-color: #0e3c6e;
   padding: 2rem;
-  opacity: 0.8;
   min-height: 80%;
 }
 

@@ -12,10 +12,10 @@
 }
 .select-dropdown__control {
   cursor: pointer !important;
-  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%) !important;
+  background: linear-gradient(180deg, #f17608 0%, #ee8d39 100%) !important;
   z-index: 1;
   opacity: 1;
-  border-color: #9bc100 !important;
+  border-color: #f17608 !important;
   border-radius:  5px !important;
 }
 

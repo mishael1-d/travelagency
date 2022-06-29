@@ -27,8 +27,8 @@
   border-radius: 5px;
 }
 .flight-wrapper figure img {
-  border-radius: 5px;
-  width: 300px;
+  border-radius: 10px 10px  0 0;
+  width: 200px;
   height: 240px;
   object-fit: cover;
 }
@@ -40,8 +40,8 @@
   width: 60px;
   height: 60px;
   line-height: 60px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 30%;
+  transform: translateY(-30%);
   background-color: #fff !important;
   color: #000 !important;
   font-size: 28px !important;
@@ -62,8 +62,8 @@
   width: 60px;
   height: 60px;
   line-height: 60px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 30%;
+  transform: translateY(-30%);
   background-color: #fff !important;
   color: #000 !important;
   font-size: 28px !important;
@@ -74,25 +74,22 @@
 }
 
 .location-overlay__container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 24px 22px;
+  background: #fff;
+  border-radius: 0 0 10px 10px;
 }
 
-.paynow-overlay__container {
+/* .paynow-overlay__container {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 24px 22px;
-}
+} */
 
 .location-overlay__content,
 .paynow-overlay__content {
-  color: #fff !important;
+  color: #000 !important;
   display: flex;
   align-items: flex-start;
 }
@@ -115,14 +112,17 @@
 }
 .location p {
   font-weight: 500;
-  font-size: 14px;
+  /* font-size: 14px; */
+}
+.location img {
+  width: 50% !important;
 }
 .location span {
   margin-left: 1rem;
 }
 
 .paynow-overlay__content {
-  border: 1px solid #efff3a;
+  border: 1px solid #f17608;
   justify-content: space-between;
   border-radius: 5px;
 }
@@ -135,7 +135,7 @@
   height: 100%;
 }
 .pay-discount .body {
-  background: linear-gradient(180deg, #efff3a 0%, #9bc100 100%);
+  background: linear-gradient(180deg, #f17608 0%, #ee8d39 100%);
   padding: 5px 10px;
 }
 .pay-discount .body p,
